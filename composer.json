@@ -1,5 +1,5 @@
 {
-    "name": "dve/cex.io-php",
+    "name": "pashazahari/cex.io-php",
     "description": "A simple cex.io API php client",
     "type": "library",
     "require": {
