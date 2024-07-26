@@ -1,6 +1,6 @@
 <?php
 
-namespace DVE\CEXApiClient\ConstantHelper;
+namespace pashazahari\CEXApiClient\ConstantHelper;
 
 class OrderType
 {

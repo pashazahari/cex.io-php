@@ -1,8 +1,8 @@
 <?php
 
-namespace DVE\CEXApiClient\ClientTool;
+namespace pashazahari\CEXApiClient\ClientTool;
 
-use DVE\CEXApiClient\Client;
+use pashazahari\CEXApiClient\Client;
 
 class ClientToolAbstract
 {

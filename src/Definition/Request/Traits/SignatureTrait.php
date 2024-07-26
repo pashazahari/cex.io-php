@@ -1,9 +1,9 @@
 <?php
 
-namespace DVE\CEXApiClient\Definition\Request\Traits;
+namespace pashazahari\CEXApiClient\Definition\Request\Traits;
 
-use DVE\CEXApiClient\Definition\Request\PrivateRequestAbstract;
-use DVE\CEXApiClient\Definition\Request\RequestInterface;
+use pashazahari\CEXApiClient\Definition\Request\PrivateRequestAbstract;
+use pashazahari\CEXApiClient\Definition\Request\RequestInterface;
 
 trait SignatureTrait
 {

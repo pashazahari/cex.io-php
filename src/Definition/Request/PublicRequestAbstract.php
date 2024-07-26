@@ -1,8 +1,8 @@
 <?php
 
-namespace DVE\CEXApiClient\Definition\Request;
+namespace pashazahari\CEXApiClient\Definition\Request;
 
-use DVE\CEXApiClient\Definition\Request\Traits\SignatureTrait;
+use pashazahari\CEXApiClient\Definition\Request\Traits\SignatureTrait;
 
 abstract class PublicRequestAbstract implements RequestInterface
 {

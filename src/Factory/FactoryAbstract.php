@@ -1,6 +1,6 @@
 <?php
 
-namespace DVE\CEXApiClient\Factory;
+namespace pashazahari\CEXApiClient\Factory;
 
 class FactoryAbstract
 {

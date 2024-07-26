@@ -1,8 +1,8 @@
 <?php
 
-namespace DVE\CEXApiClient\Definition\Response;
+namespace pashazahari\CEXApiClient\Definition\Response;
 
-use DVE\CEXApiClient\Definition\Response\Property\OrderBookBidAskProperty;
+use pashazahari\CEXApiClient\Definition\Response\Property\OrderBookBidAskProperty;
 
 class OrderBookResponse implements ResponseInterface
 {

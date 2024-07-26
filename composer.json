@@ -1,5 +1,5 @@
 {
-    "name": "pashazahari/cex.io-php",
+    "name": "pashazahari/cexio-php",
     "description": "A simple cex.io API php client",
     "type": "library",
     "require": {
@@ -12,13 +12,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "David Vander Elst",
-            "email": "vanderelst.david@gmail.com"
+            "name": "Pasha Zahari",
+            "email": "pasha.zahari@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "DVE\\CEXApiClient\\": "src/"
+            "pashazahari\\CEXApiClient\\": "src/"
         }
     }
 }

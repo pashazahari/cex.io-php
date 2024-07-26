@@ -1,9 +1,9 @@
 <?php
 
-namespace DVE\CEXApiClient\Definition\Response;
+namespace pashazahari\CEXApiClient\Definition\Response;
 
-use DVE\CEXApiClient\Definition\Response\Property\BalanceCurrencyProperty;
-use DVE\CEXApiClient\Definition\Response\Traits\TimestampTrait;
+use pashazahari\CEXApiClient\Definition\Response\Property\BalanceCurrencyProperty;
+use pashazahari\CEXApiClient\Definition\Response\Traits\TimestampTrait;
 
 class BalanceResponse implements ResponseInterface
 {

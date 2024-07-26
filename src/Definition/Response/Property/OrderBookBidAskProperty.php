@@ -1,6 +1,6 @@
 <?php
 
-namespace DVE\CEXApiClient\Definition\Response\Property;
+namespace pashazahari\CEXApiClient\Definition\Response\Property;
 
 class OrderBookBidAskProperty
 {

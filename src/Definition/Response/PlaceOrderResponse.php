@@ -1,6 +1,6 @@
 <?php
 
-namespace DVE\CEXApiClient\Definition\Response;
+namespace pashazahari\CEXApiClient\Definition\Response;
 
 abstract class PlaceOrderResponse implements ResponseInterface
 {

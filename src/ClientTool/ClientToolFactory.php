@@ -1,9 +1,9 @@
 <?php
 
-namespace DVE\CEXApiClient\ClientTool;
+namespace pashazahari\CEXApiClient\ClientTool;
 
-use DVE\CEXApiClient\Client;
-use DVE\CEXApiClient\Factory\FactoryAbstract;
+use pashazahari\CEXApiClient\Client;
+use pashazahari\CEXApiClient\Factory\FactoryAbstract;
 
 class ClientToolFactory extends FactoryAbstract
 {

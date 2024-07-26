@@ -2,7 +2,7 @@
 
 This is a non-official PHP client for the CEX.io market place API.
 
-## Read first
+## Read first 
 
 CEX.io use a **nonce** number to sign the private requests. The nonce cannot be the same or smaller than the previous one.
 

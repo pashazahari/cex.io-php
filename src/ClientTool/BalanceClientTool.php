@@ -1,8 +1,8 @@
 <?php
 
-namespace DVE\CEXApiClient\ClientTool;
+namespace pashazahari\CEXApiClient\ClientTool;
 
-use DVE\CEXApiClient\ConstantHelper\SupportedCurrency;
+use pashazahari\CEXApiClient\ConstantHelper\SupportedCurrency;
 
 class BalanceClientTool extends ClientToolAbstract
 {

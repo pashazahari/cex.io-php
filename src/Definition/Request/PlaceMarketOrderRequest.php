@@ -1,6 +1,6 @@
 <?php
 
-namespace DVE\CEXApiClient\Definition\Request;
+namespace pashazahari\CEXApiClient\Definition\Request;
 
 class PlaceMarketOrderRequest extends PlaceOrderRequest
 {

@@ -1,26 +1,26 @@
 <?php
 
-namespace DVE\CEXApiClient;
+namespace pashazahari\CEXApiClient;
 
-use DVE\CEXApiClient\ClientTool\ClientToolFactory;
-use DVE\CEXApiClient\ConstantHelper\OrderType;
-use DVE\CEXApiClient\Definition\Request\BalanceRequest;
-use DVE\CEXApiClient\Definition\Request\LastPriceRequest;
-use DVE\CEXApiClient\Definition\Request\OrderBookRequest;
-use DVE\CEXApiClient\Definition\Request\OrderDetailsRequest;
-use DVE\CEXApiClient\Definition\Request\PlaceLimitOrderRequest;
-use DVE\CEXApiClient\Definition\Request\PlaceMarketOrderRequest;
-use DVE\CEXApiClient\Definition\Request\RequestInterface;
-use DVE\CEXApiClient\Definition\Request\Traits\SignatureTrait;
-use DVE\CEXApiClient\Definition\Response\BalanceResponse;
-use DVE\CEXApiClient\Definition\Response\LastPriceResponse;
-use DVE\CEXApiClient\Definition\Response\OrderBookResponse;
-use DVE\CEXApiClient\Definition\Response\OrderDetailsResponse;
-use DVE\CEXApiClient\Definition\Response\PlaceLimitOrderResponse;
-use DVE\CEXApiClient\Definition\Response\PlaceMarketOrderResponse;
-use DVE\CEXApiClient\Definition\Response\Property\BalanceCurrencyProperty;
-use DVE\CEXApiClient\Definition\Response\Property\OrderBookBidAskProperty;
-use DVE\CEXApiClient\Exception\CexApiClientResponseException;
+use pashazahari\CEXApiClient\ClientTool\ClientToolFactory;
+use pashazahari\CEXApiClient\ConstantHelper\OrderType;
+use pashazahari\CEXApiClient\Definition\Request\BalanceRequest;
+use pashazahari\CEXApiClient\Definition\Request\LastPriceRequest;
+use pashazahari\CEXApiClient\Definition\Request\OrderBookRequest;
+use pashazahari\CEXApiClient\Definition\Request\OrderDetailsRequest;
+use pashazahari\CEXApiClient\Definition\Request\PlaceLimitOrderRequest;
+use pashazahari\CEXApiClient\Definition\Request\PlaceMarketOrderRequest;
+use pashazahari\CEXApiClient\Definition\Request\RequestInterface;
+use pashazahari\CEXApiClient\Definition\Request\Traits\SignatureTrait;
+use pashazahari\CEXApiClient\Definition\Response\BalanceResponse;
+use pashazahari\CEXApiClient\Definition\Response\LastPriceResponse;
+use pashazahari\CEXApiClient\Definition\Response\OrderBookResponse;
+use pashazahari\CEXApiClient\Definition\Response\OrderDetailsResponse;
+use pashazahari\CEXApiClient\Definition\Response\PlaceLimitOrderResponse;
+use pashazahari\CEXApiClient\Definition\Response\PlaceMarketOrderResponse;
+use pashazahari\CEXApiClient\Definition\Response\Property\BalanceCurrencyProperty;
+use pashazahari\CEXApiClient\Definition\Response\Property\OrderBookBidAskProperty;
+use pashazahari\CEXApiClient\Exception\CexApiClientResponseException;
 use Shudrum\Component\ArrayFinder\ArrayFinder;
 
 class Client

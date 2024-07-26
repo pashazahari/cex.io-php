@@ -1,6 +1,6 @@
 <?php
 
-namespace DVE\CEXApiClient\Exception;
+namespace pashazahari\CEXApiClient\Exception;
 
 use Psr\Http\Message\ResponseInterface;
 use Shudrum\Component\ArrayFinder\ArrayFinder;
