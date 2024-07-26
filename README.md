@@ -17,8 +17,8 @@ If you are not sure, please generate a new API key on CEX.io to avoid ***"invali
 ```
 <?php 
  
-use DVE\CEXApiClient\Client;
-use DVE\CEXApiClient\Config;
+use pashazahari\CEXApiClient\Client;
+use pashazahari\CEXApiClient\Config;
 
 $client = Client::create((new Config())
     ->setApiKey('YOUR_API_KEY')
