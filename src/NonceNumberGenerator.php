@@ -1,6 +1,6 @@
 <?php
 
-namespace DVE\CEXApiClient;
+namespace pashazahari\CEXApiClient;
 
 class NonceNumberGenerator
 {
